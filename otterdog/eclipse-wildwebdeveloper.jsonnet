@@ -12,7 +12,8 @@ orgs.newOrg('eclipse-wildwebdeveloper') {
     packages_containers_internal: false,
     packages_containers_public: false,
     readers_can_create_discussions: true,
-    security_managers: [],
+    security_managers+: [
+    ],
     two_factor_requirement: false,
     web_commit_signoff_required: false,
   },
