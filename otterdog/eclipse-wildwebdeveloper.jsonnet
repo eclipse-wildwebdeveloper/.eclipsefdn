@@ -16,6 +16,7 @@ orgs.newOrg('eclipse-wildwebdeveloper') {
       allow_merge_commit: false,
       default_branch: "master",
       description: "Simple and productive Web Development Tools in the Eclipse IDE",
+      has_discussions: true,
       homepage: "https://projects.eclipse.org/projects/tools.wildwebdeveloper",
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
