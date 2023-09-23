@@ -16,8 +16,8 @@ orgs.newOrg('eclipse-wildwebdeveloper') {
   },
   _repositories+:: [
     orgs.newRepo('wildwebdeveloper') {
-      allow_merge_commit: false,
       default_branch: "master",
+      delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
       description: "Simple and productive Web Development Tools in the Eclipse IDE",
       has_discussions: true,
