@@ -1,6 +1,6 @@
 site_name: Otterdog configuration @ eclipse-wildwebdeveloper
 site_description: Otterdog configuration @ eclipse-wildwebdeveloper
-strict: true
+strict: false
 
 site_url: https://eclipse-wildwebdeveloper.github.io/.eclipsefdn/
 
