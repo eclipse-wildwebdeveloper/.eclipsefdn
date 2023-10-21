@@ -4,6 +4,9 @@ strict: false
 
 site_url: https://eclipse-wildwebdeveloper.github.io/.eclipsefdn/
 
+repo_name: eclipse-wildwebdeveloper/.eclipsefdn
+repo_url: https://github.com/eclipse-wildwebdeveloper/.eclipsefdn/
+
 docs_dir: ./docs
 site_dir: ./_site
 
