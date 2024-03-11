@@ -23,9 +23,6 @@ orgs.newOrg('eclipse-wildwebdeveloper') {
         "hacktoberfest"
       ],
       web_commit_signoff_required: false,
-      workflows+: {
-        actions_can_approve_pull_request_reviews: false,
-      },
       webhooks: [
         orgs.newRepoWebhook('https://notify.travis-ci.org') {
           events+: [
