@@ -2,4 +2,4 @@
 *             @eclipse-wildwebdeveloper/eclipsefdn-releng
 
 # Otterdog related configurations are also owned by the security team.
-/otterdog/**  @eclipse-wildwebdeveloper/eclipsefdn-security @eclipse-wildwebdeveloper/eclipsefdn-releng
+/otterdog/**  @eclipse-wildwebdeveloper/eclipsefdn-security
