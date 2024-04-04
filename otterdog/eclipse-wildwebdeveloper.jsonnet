@@ -5,7 +5,6 @@ orgs.newOrg('eclipse-wildwebdeveloper') {
     dependabot_security_updates_enabled_for_new_repositories: false,
     description: "",
     name: "Eclipse WildWebDeveloper",
-    readers_can_create_discussions: true,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
