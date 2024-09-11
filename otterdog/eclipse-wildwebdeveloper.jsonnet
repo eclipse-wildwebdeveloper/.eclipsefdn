@@ -37,7 +37,7 @@ orgs.newOrg('eclipse-wildwebdeveloper') {
       ],
       secrets: [
         orgs.newRepoSecret('GITLAB_API_TOKEN') {
-          value: "********",
+          value: "pass:bots/tools.wildwebdeveloper/gitlab.eclipse.org/api-token",
         },
       ],
     },
