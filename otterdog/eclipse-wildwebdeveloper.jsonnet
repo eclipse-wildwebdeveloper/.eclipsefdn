@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-wildwebdeveloper') {
+orgs.newOrg('tools.wildwebdeveloper', 'eclipse-wildwebdeveloper') {
   settings+: {
     description: "",
     name: "Eclipse WildWebDeveloper",
