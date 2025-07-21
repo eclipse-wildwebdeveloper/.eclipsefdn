@@ -6,7 +6,6 @@ orgs.newOrg('tools.wildwebdeveloper', 'eclipse-wildwebdeveloper') {
     name: "Eclipse WildWebDeveloper",
     web_commit_signoff_required: false,
     workflows+: {
-      actions_can_approve_pull_request_reviews: false,
     },
   },
   _repositories+:: [
