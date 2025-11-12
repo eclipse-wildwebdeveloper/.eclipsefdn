@@ -22,6 +22,7 @@ orgs.newOrg('tools.wildwebdeveloper', 'eclipse-wildwebdeveloper') {
   _repositories+:: [
     orgs.newRepo('wildwebdeveloper') {
       allow_merge_commit: false,
+      code_scanning_default_setup_enabled: false,  # we are using custom CodeQL workflow which is the preferred way
       default_branch: "master",
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
